@@ -1,1 +1,1 @@
-# Animal-Detection-App
+This animal-detection web app was developed using Python, YOLOv8, and Streamlit. Users can upload images to identify cats, ducks, and rabbits, with results displayed as labelled bounding boxes and confidence scores. The app currently runs locally.
