@@ -1,0 +1,9 @@
+train: /Users/zhukaihong/Desktop/Personal.Project/Data/train/images # train images (relative to 'path')
+val: /Users/zhukaihong/Desktop/Personal.Project/Data/valid/images # val images (relative to 'path')
+
+# Classes
+names:
+  0: cat
+  1: duck
+  2: rabbit
+
