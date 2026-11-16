@@ -17,7 +17,7 @@ st.header("Please upload an image! <3")
 file = st.file_uploader('', type=['png', 'jpg', 'jpeg'])
 
 # load model
-model = YOLO("/Users/zhukaihong/PycharmProjects/Personal_Project/runs/detect/train11/weights/best.pt")
+model = YOLO("best.pt")
 
 # produce results
 if file:
