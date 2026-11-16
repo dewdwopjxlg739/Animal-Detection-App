@@ -5,7 +5,7 @@ import numpy as np
 
 # set background image
 from util import add_bg
-add_bg("/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/vecteezy_pastel-blue-aesthetic-background-can-use-for-print_13109681.jpg")
+add_bg("vecteezy_pastel-blue-aesthetic-background-can-use-for-print_13109681.jpg")
 
 # set title
 st.title("Cat, Duck, or Rabbit?")
@@ -43,14 +43,17 @@ st.markdown(
 )
 st.subheader("Screenshots of my code:")
 st.markdown('The "train.py" file for the training process:')
-st.image('/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/Screenshot 2025-11-30 at 11.08.54 PM.png')
-st.markdown('The "data.yaml" file for directories to my datasets used for training:')
-st.image('/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/Screenshot 2025-11-30 at 11.09.22 PM.png')
+st.image("code-screenshot-4.png")
+
+st.markdown('The "data.yaml" file for dataset settings:')
+st.image("code-screenshot-5.png")
+
 st.markdown('The "util.py" file for this website:')
-st.image('/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/Screenshot 2025-12-01 at 11.55.45 PM.png')
+st.image("code-screenshot-3.png")
+
 st.markdown('The "app.py" file for this website:')
-st.image('/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/Screenshot 2025-12-01 at 11.55.02 PM.png')
-st.image('/Users/zhukaihong/Desktop/Personal.Project/Website Articles - DO NOT DELETE/Screenshot 2025-12-01 at 11.55.29 PM.png')
+st.image("code-screenshot-1.png")
+st.image("code-screenshot-2.png")
 
 # my journey with coding
 st.subheader("My Coding Journey")
